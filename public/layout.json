@@ -1,0 +1,270 @@
+{
+	"sections": [
+		{
+			"title": "MathWorks",
+			"content": [
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "Inside",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://sharepoint.mathworks.com/Pages/homepage.aspx"
+						},
+						{
+							"type": "link",
+							"label": "Wiki on Inside",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://inside.mathworks.com/wiki/Main_Page"
+						},
+						{
+							"type": "link",
+							"label": "OneDrive",
+							"icon": "https://mathworks-my.sharepoint.com/_layouts/15/images/odbfavicon.ico?rev=44",
+							"link": "https://mathworks-my.sharepoint.com/"
+						},
+						{
+							"type": "link",
+							"label": "Yammer",
+							"icon": "https://www.google.com/s2/favicons?domain=https://www.yammer.com/mathworks.com/?show_login=true#/home?show_login=true",
+							"link": "https://www.yammer.com/mathworks.com/?show_login=true#/home?show_login=true"
+						},
+						{
+							"type": "link",
+							"label": "Help",
+							"icon": "https://help.mathworks.com/CherwellPortal/SelfService/Resource/Image/Gallery/[PlugIn]Images;Images.Common.Cherwell.ico",
+							"link": "https://help.mathworks.com/CherwellPortal/SelfService"
+						},
+						{
+							"type": "link",
+							"label": "Workday",
+							"icon": "https://www.google.com/s2/favicons?domain=https://www.myworkday.com/mathworks/d/home.htmld",
+							"link": "https://www.myworkday.com/mathworks/d/home.htmld"
+						},
+						{
+							"type": "link",
+							"label": "Floorplan",
+							"icon": "https://www.google.com/s2/favicons?domain=http://inside-apps.mathworks.com/Facebook/floorplan.jsp",
+							"link": "http://inside-apps.mathworks.com/Facebook/floorplan.jsp"
+						},
+						{
+							"type": "link",
+							"label": "Learning Central",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://inside-mathworks.csod.com/LMS/catalog/Welcome.aspx"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "EDG",
+			"content": [
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "Stand-up Meeting",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://sharepoint.mathworks.com/salesservice/tech_support/tech_support_teams/emea/UK%20EDG/Lists/UK%20EDG%20Standup%20Meetings/AllItems.aspx"
+						},
+						{
+							"type": "link",
+							"label": "EDG Wiki",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "http://inside.mathworks.com/wiki/EDG_Technical_Support_Wiki"
+						},
+						{
+							"type": "link",
+							"label": "EDG Resources",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://sharepoint.mathworks.com/salesservice/tech_support/tech_support_teams/emea/UK%20EDG/Resources/Forms/AllItems.aspx"
+						},
+						{
+							"type": "link",
+							"label": "EDG GitLab",
+							"icon": "http://insidelabs-git.mathworks.com/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico",
+							"link": "http://insidelabs-git.mathworks.com/groups/EDGUKRepository"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Technical Support",
+			"content": [
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "Technical Support (Inside)",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://sharepoint.mathworks.com/salesservice/tech_support/default.aspx"
+						},
+						{
+							"type": "link",
+							"label": "SalesForce",
+							"icon": "https://mathworks.my.salesforce.com/favicon.ico",
+							"link": "https://mathworks.my.salesforce.com/console"
+						},
+						{
+							"type": "link",
+							"label": "EMEA Calendar",
+							"icon": "https://www.google.com/s2/favicons?domain=http://inside-labs.mathworks.com/salesservice/tsemea/Calendar.html",
+							"link": "http://inside-labs.mathworks.com/salesservice/tsemea/Calendar.html"
+						},
+						{
+							"type": "link",
+							"label": "Licensing App",
+							"icon": "http://inside-apps.mathworks.com/licensing/2.0.0/images/favicon.ico",
+							"link": "http://inside-apps.mathworks.com/licensing/"
+						},
+						{
+							"type": "link",
+							"label": "Polyspace Support Page",
+							"icon": "imgs/Polyspace_logo.png",
+							"link": "https://sharepoint.mathworks.com/salesservice/tech_support/asg/ASG%20Polyspace%20Documents/Tools/Polyspace_Support_Page/index.html"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Development",
+			"content": [
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "Gecko Dashboard",
+							"icon": "http://komodo.mathworks.com/main/favicon.ico",
+							"link": "http://komodo.mathworks.com/main/gecko?Action=menu#/devdashboard"
+						},
+						{
+							"type": "link",
+							"label": "Gecko Component Owners",
+							"icon": "http://komodo.mathworks.com/main/favicon.ico",
+							"link": "http://komodo.mathworks.com/main/gecko/componentowners"
+						},
+						{
+							"type": "link",
+							"label": "BaT Cave",
+							"icon": "http://bat3cave.mathworks.com/Cabbage/images/favicon.ico?version=3154891",
+							"link": "http://bat3cave.mathworks.com/Cabbage/cluster/Bmain"
+						},
+						{
+							"type": "link",
+							"label": "Source Code Search",
+							"icon": "https://www.google.com/s2/favicons?domain=http://codesearch.mathworks.com:8080/srcsearch/",
+							"link": "http://codesearch.mathworks.com:8080/srcsearch/"
+						},
+						{
+							"type": "link",
+							"label": "Stack Trace :: Decode",
+							"icon": "https://www.google.com/s2/favicons?domain=http://www-sbtools-ah/hub/share/sbtools/apps/stack_trace/index.cgi/stacktrace",
+							"link": "http://www-sbtools-ah/hub/share/sbtools/apps/stack_trace/index.cgi/stacktrace"
+						},
+						{
+							"type": "link",
+							"label": "Inside Labs",
+							"icon": "imgs/InsideLabs_logo.png",
+							"link": "http://admin.insidelabs.mathworks.com"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Documentation",
+			"content": [
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "R2018a",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2018a/index.html"
+						},
+						{
+							"type": "link",
+							"label": "R2017a",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2017a/index.html"
+						},
+						{
+							"type": "link",
+							"label": "R2016a",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2016a/index.html"
+						},
+						{
+							"type": "link",
+							"label": "R2015a",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2015a/index.html"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "R2017b",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2017b/index.html"
+						},
+						{
+							"type": "link",
+							"label": "R2016b",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2016b/index.html"
+						},
+						{
+							"type": "link",
+							"label": "R2015b",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/releases/R2015b/index.html"
+						},
+						{
+							"type": "component",
+							"name": "DocDropdown",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"
+						}
+					]
+				},
+				{
+					"type": "separator"
+				},
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "link",
+							"label": "System Requirements",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/support/sysreq.html"
+						},
+						{
+							"type": "link",
+							"label": "Release Notes",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/help/relnotes/"
+						},
+						{
+							"type": "link",
+							"label": "Latest Update",
+							"icon": "https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico",
+							"link": "https://www.mathworks.com/downloads/web_downloads/download_update?release=R2018a"
+						}
+					]
+				}
+			]
+		}
+	]
+}
