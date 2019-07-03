@@ -3,32 +3,44 @@ import Section from "./Section";
 import Link from "./Link";
 import "../utils";
 
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { fetchSections } from "../actions/boardActions";
+
 export class Board extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      sections: []
-    };
-  }
   componentWillMount() {
-    fetch("https://jsonplaceholder.typicode.com/posts")
-      .then(res => res.json())
-      .then(data => this.setState({ sections: data }));
+    this.props.fetchSections();
   }
+
   render() {
-    const sectionElements = this.state.sections.map(section => (
-      <Section key={section.id} title={section.title}>
-        <ul>
-          {section.body.split("\n").map(link => (
-            <li key={link.hashCode()}>
-              <Link>{link}</Link>
-            </li>
-          ))}
-        </ul>
-      </Section>
-    ));
-    return <div>{sectionElements}</div>;
+    return (
+      <div>
+        {this.props.sections.map(section => (
+          <Section key={section.id} title={section.title}>
+            <ul>
+              {section.body.split("\n").map(link => (
+                <li key={link.hashCode()}>
+                  <Link>{link}</Link>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        ))}
+      </div>
+    );
   }
 }
 
-export default Board;
+Board.propTypes = {
+  fetchSections: PropTypes.func.isRequired,
+  sections: PropTypes.array.isRequired
+};
+
+const mapStateToProps = state => ({
+  sections: state.sections.items
+});
+
+export default connect(
+  mapStateToProps,
+  { fetchSections }
+)(Board);
