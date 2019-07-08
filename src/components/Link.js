@@ -1,8 +1,26 @@
 import React, { Component } from "react";
+import DocDropdown from "./DocDropdown";
+import UnknownWidget from "./UnknownWidget";
 
 class Link extends Component {
   render() {
-    return <a href={this.props.href}>{this.props.children}</a>;
+    if (this.props.children === "{widget}") {
+      const widgetName = this.props.url;
+      switch (widgetName) {
+        case "DocDropdown":
+          return <DocDropdown />;
+        default:
+          console.error(`Error: Cannot find widget "${widgetName}".`);
+          return <UnknownWidget />;
+      }
+    } else {
+      return (
+        <>
+          <img alt="" src={this.props.icon} style={{ width: 20, height: 20 }} />
+          <a href={this.props.url}>{this.props.children}</a>
+        </>
+      );
+    }
   }
 }
 

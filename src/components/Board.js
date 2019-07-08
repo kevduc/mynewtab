@@ -16,10 +16,13 @@ export class Board extends Component {
     // .then(data => console.log(data));
   }
   render() {
-    const sectionElements = this.state.sections.map(section => (
-      <Section key={section.title} {...section} />
-    ));
-    return <div>{sectionElements}</div>;
+    return (
+      <div>
+        {this.state.sections.map(section => (
+          <Section key={section.title} {...section} />
+        ))}
+      </div>
+    );
   }
 }
 

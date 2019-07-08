@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Item from "./Item";
+import List from "./List";
 
 class Section extends Component {
   render() {
@@ -9,24 +9,20 @@ class Section extends Component {
         <h1>{this.props.title}</h1>
         <hr />
         {this.props.content.map(element => {
-          console.log(element);
-          switch (element.type) {
+          const type = Object.keys(element)[0];
+
+          switch (type) {
             case "list":
               return (
-                <ul
+                <List
                   key={
                     "list-" +
-                    element.items
-                      .map(item => Object.values(item).join("-"))
+                    element.list
+                      .map(link => Object.values(link).join("-"))
                       .join("-")
                   }
-                >
-                  {element.items.map(item => (
-                    <li key={Object.values(item).join("-")}>
-                      <Item {...item} />
-                    </li>
-                  ))}
-                </ul>
+                  list={element.list}
+                />
               );
             case "separator":
               return <hr key={"separator-" + separatorCount++} />;
