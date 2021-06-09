@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import DocDropdown from "./DocDropdown";
-import UnknownWidget from "./UnknownWidget";
 
 class Link extends Component {
   render() {
@@ -11,7 +10,7 @@ class Link extends Component {
           return <DocDropdown />;
         default:
           console.error(`Error: Cannot find widget "${widgetName}".`);
-          return <UnknownWidget />;
+          return <></>;
       }
     } else {
       return (

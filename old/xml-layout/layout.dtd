@@ -1,0 +1,35 @@
+
+<!ELEMENT layout (column+)>
+<!ATTLIST layout EMPTY>
+
+<!ELEMENT column (title,(separator | list)*)>
+<!ATTLIST column
+  width		CDATA		#REQUIRED
+  >
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title EMPTY>
+
+<!ELEMENT separator EMPTY>
+<!ATTLIST separator EMPTY>
+
+<!ELEMENT list (item)+>
+<!ATTLIST list EMPTY>
+
+<!ELEMENT item (icon,label)>
+<!ATTLIST item
+  href		CDATA		#IMPLIED
+  >
+
+<!ELEMENT icon EMPTY>
+<!ATTLIST icon
+  src		CDATA		#IMPLIED
+  >
+
+<!ELEMENT label (#PCDATA)>
+<!ATTLIST label EMPTY>
+
+
+<!-- Special case item for doc drop-down selection -->
+<!ELEMENT item-select (icon)>
+<!ATTLIST item-select EMPTY>

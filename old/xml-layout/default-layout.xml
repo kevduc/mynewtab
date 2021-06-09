@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<!DOCTYPE layout SYSTEM "layout.dtd">
+
+<layout>
+
+	<column width="220px">
+	<title>MathWorks</title>
+	<list>
+		<item href="https://sharepoint.mathworks.com/Pages/homepage.aspx">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Inside</label>
+		</item>
+		<item href="https://inside.mathworks.com/wiki/Main_Page">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Wiki on Inside</label>
+		</item>
+		<item href="https://mathworks-my.sharepoint.com/">
+			<icon src="https://mathworks-my.sharepoint.com/_layouts/15/images/odbfavicon.ico?rev=44"/>
+			<label>OneDrive</label>
+		</item>
+		<item href="https://www.yammer.com/mathworks.com/?show_login=true#/home?show_login=true">
+			<icon src="https://www.google.com/s2/favicons?domain=https://www.yammer.com/mathworks.com/?show_login=true#/home?show_login=true"/>
+			<label>Yammer</label>
+		</item>
+		<item href="https://help.mathworks.com/CherwellPortal/SelfService">
+			<icon src="https://help.mathworks.com/CherwellPortal/SelfService/Resource/Image/Gallery/[PlugIn]Images;Images.Common.Cherwell.ico"/>
+			<label>Help</label>
+		</item>
+		<item href="https://www.myworkday.com/mathworks/d/home.htmld">
+			<icon src="https://www.google.com/s2/favicons?domain=https://www.myworkday.com/mathworks/d/home.htmld"/>
+			<label>Workday</label>
+		</item>
+		<item href="http://inside-apps.mathworks.com/Facebook/floorplan.jsp">
+			<icon src="https://www.google.com/s2/favicons?domain=http://inside-apps.mathworks.com/Facebook/floorplan.jsp"/>
+			<label>Floorplan</label>
+		</item>
+		<item href="https://inside-mathworks.csod.com/LMS/catalog/Welcome.aspx">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Learning Central</label>
+		</item>
+	</list>
+	</column>
+
+	<column width="220px">
+	<title>EDG</title>
+	<list>
+		<item href="https://sharepoint.mathworks.com/salesservice/tech_support/tech_support_teams/emea/UK%20EDG/Lists/UK%20EDG%20Standup%20Meetings/AllItems.aspx">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Stand-up Meeting</label>
+		</item>
+		<item href="http://inside.mathworks.com/wiki/EDG_Technical_Support_Wiki">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>EDG Wiki</label>
+		</item>
+		<item href="https://sharepoint.mathworks.com/salesservice/tech_support/tech_support_teams/emea/UK%20EDG/Resources/Forms/AllItems.aspx">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>EDG Resources</label>
+		</item>
+		<item href="http://insidelabs-git.mathworks.com/groups/EDGUKRepository">
+			<icon src="http://insidelabs-git.mathworks.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png"/>
+			<label>EDG GitLab</label>
+		</item>
+	</list>
+	</column>
+
+	<column width="266px">
+	<title>Technical Support</title>
+	<list>
+		<item href="https://sharepoint.mathworks.com/salesservice/tech_support/default.aspx">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Technical Support (Inside)</label>
+		</item>
+		<item href="https://mathworks.my.salesforce.com/console">
+			<icon src="https://mathworks.my.salesforce.com/favicon.ico"/>
+			<label>SalesForce</label>
+		</item>
+		<item href="http://inside-labs.mathworks.com/salesservice/tsemea/Calendar.html">
+			<icon src="https://www.google.com/s2/favicons?domain=http://inside-labs.mathworks.com/salesservice/tsemea/Calendar.html"/>
+			<label>EMEA Calendar</label>
+		</item>
+		<item href="http://inside-apps.mathworks.com/licensing/">
+			<icon src="http://inside-apps.mathworks.com/licensing/2.1.0/images/favicon.ico"/>
+			<label>Licensing App</label>
+		</item>
+		<item href="https://sharepoint.mathworks.com/salesservice/tech_support/asg/ASG%20Polyspace%20Documents/Tools/Polyspace_Support_Page/index.html">
+			<icon src="imgs/Polyspace_logo.png"/>
+			<label>Polyspace Support Page</label>
+		</item>
+	</list>
+	</column>
+
+	<column width="270px">
+	<title>Development</title>
+	<list>
+		<item href="http://komodo.mathworks.com/main/gecko?Action=menu#/devdashboard">
+			<icon src="http://komodo.mathworks.com/main/favicon.ico"/>
+			<label>Gecko Dashboard</label>
+		</item>
+		<item href="http://komodo.mathworks.com/main/gecko/componentowners">
+			<icon src="http://komodo.mathworks.com/main/favicon.ico"/>
+			<label>Gecko Component Owners</label>
+		</item>
+		<item href="http://bat3cave.mathworks.com/Cabbage/cluster/Bmain">
+			<icon src="http://bat3cave.mathworks.com/Cabbage/images/favicon.ico?version=3154891"/>
+			<label>BaT Cave</label>
+		</item>
+		<item href="http://codesearch.mathworks.com:8080/srcsearch/">
+			<icon src="https://www.google.com/s2/favicons?domain=http://codesearch.mathworks.com:8080/srcsearch/"/>
+			<label>Source Code Search</label>
+		</item>
+		<item href="http://www-sbtools-ah/hub/share/sbtools/apps/stack_trace/index.cgi/stacktrace">
+			<icon src="https://www.google.com/s2/favicons?domain=http://www-sbtools-ah/hub/share/sbtools/apps/stack_trace/index.cgi/stacktrace"/>
+			<label>Stack Trace :: Decode</label>
+		</item>
+		<item href="http://admin.insidelabs.mathworks.com">
+			<icon src="imgs/InsideLabs_logo.png"/>
+			<label>Inside Labs</label>
+		</item>
+	</list>
+	</column>
+
+	<column width="230px">
+	<title>Documentation</title>
+	<list>
+		<item href="https://www.mathworks.com/help/releases/R2018a/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2018a</label>
+		</item>
+		<item href="https://www.mathworks.com/help/releases/R2017a/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2017a</label>
+		</item>
+		<item href="https://www.mathworks.com/help/releases/R2016a/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2016a</label>
+		</item>
+		<item href="https://www.mathworks.com/help/releases/R2015a/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2015a</label>
+		</item>
+	</list>
+		
+	<list>
+		<item href="https://www.mathworks.com/help/releases/R2017b/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2017b</label>
+		</item>
+		<item href="https://www.mathworks.com/help/releases/R2016b/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2016b</label>
+		</item>
+		<item href="https://www.mathworks.com/help/releases/R2015b/index.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>R2015b</label>
+		</item>
+		<item-select>
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+		</item-select>
+	</list>
+		
+	<separator/>
+		
+	<list>
+		<item href="https://www.mathworks.com/support/sysreq.html">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>System Requirements</label>
+		</item>
+		<item href="https://www.mathworks.com/help/relnotes/">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Release Notes</label>
+		</item>
+		<item href="https://www.mathworks.com/downloads/web_downloads/download_update?release=R2018a">
+			<icon src="https://www.mathworks.com/etc/designs/mathworks/img/favicon.ico"/>
+			<label>Latest Update</label>
+		</item>
+	</list>
+	</column>
+
+</layout>
